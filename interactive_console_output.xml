@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231219 18:36:46.641" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20240102 18:20:45.344" rpa="false" schemaversion="4">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\DELL\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<status status="PASS" starttime="20231219 18:36:46.666" endtime="20231219 18:36:51.284"/>
+<kw name="Go to &quot;Danh mục&quot; page">
+<msg timestamp="20240102 18:20:46.373" level="FAIL">No keyword with name 'Go to "Danh mục" page' found.</msg>
+<status status="FAIL" starttime="20240102 18:20:46.373" endtime="20240102 18:20:46.373"/>
 </kw>
-<status status="PASS" starttime="20231219 18:36:46.666" endtime="20231219 18:36:51.284"/>
+<kw name="Select on the &quot;Độ khó&quot; item line">
+<status status="NOT RUN" starttime="20240102 18:20:46.374" endtime="20240102 18:20:46.374"/>
+</kw>
+<status status="PASS" starttime="20240102 18:20:45.371" endtime="20240102 18:20:48.551"/>
+</kw>
+<status status="PASS" starttime="20240102 18:20:45.371" endtime="20240102 18:20:48.551"/>
 </test>
-<status status="PASS" starttime="20231219 18:36:46.641" endtime="20231219 18:36:51.285"/>
+<status status="PASS" starttime="20240102 18:20:45.346" endtime="20240102 18:20:48.553"/>
 </suite>
 <statistics>
 <total>

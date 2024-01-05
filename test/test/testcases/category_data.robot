@@ -16,7 +16,7 @@ CT_01 Verify that navigating to the right "Category Data" page
     When Click "QUẢN LÝ DANH MỤC" menu
     When Click "Quản lý dữ liệu" sub menu to "/data"
     Then Confirm locating exactly in "Quản lý dữ liệu" page
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contain "Tạo mới" button
 
 CT_02 Verify that highlight category line after clicking on it
@@ -111,7 +111,7 @@ CT_11 Check the "Đóng lại" button
     Go to page create account "Quản lý dữ liệu" with "/data"
     When Click "Đóng lại" button
     Then Confirm locating exactly in "Quản lý dữ liệu" page
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contain "Tạo mới" button
 
 CT_12_01 Check the left arrow icon ("Trở lại" button)
@@ -119,7 +119,7 @@ CT_12_01 Check the left arrow icon ("Trở lại" button)
     Go to page create account "Quản lý dữ liệu" with "/data"
     When Click on the left arrow icon
     Then Confirm locating exactly in "Quản lý dữ liệu" page
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contain "Tạo mới" button
 
 CT_12_02 Check the (left arrow icon) "Trở lại" button
@@ -127,7 +127,7 @@ CT_12_02 Check the (left arrow icon) "Trở lại" button
     Go to page create account "Quản lý dữ liệu" with "/data"
     When Click "Trở lại" button
     Then Confirm locating exactly in "Quản lý dữ liệu" page
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contain "Tạo mới" button
 
 ### Verify the funtion of changing data information
@@ -184,7 +184,7 @@ CT_17 Check the "Đóng lại" button in edit infomation page
     When Click "Đóng lại" button
     When Click on the "Xóa" button in the "_@Tên loại@_" item line
     Then Confirm locating exactly in "Quản lý dữ liệu" page
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contain "Tạo mới" button
 
 CT_18_01 Check the left arrow icon ("Trở lại" button) in edit infomation page
@@ -194,7 +194,7 @@ CT_18_01 Check the left arrow icon ("Trở lại" button) in edit infomation pag
     When Click on the left arrow icon
     When Click on the "Xóa" button in the "_@Tên loại@_" item line
     Then Confirm locating exactly in "Quản lý dữ liệu" page
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contain "Tạo mới" button
 
 CT_18_02 Check the (left arrow icon) "Trở lại" button in edit infomation page
@@ -204,7 +204,7 @@ CT_18_02 Check the (left arrow icon) "Trở lại" button in edit infomation pag
     When Click on the left arrow icon
     When Click on the "Xóa" button in the "_@Tên loại@_" item line
     Then Confirm locating exactly in "Quản lý dữ liệu" page
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contain "Tạo mới" button
 
 ### Verify the delete data function

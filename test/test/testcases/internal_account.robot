@@ -17,7 +17,7 @@ IA_01 Verify that navigating to the right "Internal-Account" page
     When Click "Tài khoản Nội bộ" sub menu to "/internal-account"
     Then Confirm locating exactly in "Tài khoản nội bộ" page
     Then Heading should contains "Danh sách tài khoản nội bộ" inner Text
-    Then Webpage should contains the list account from database
+    Then Webpage should contains the list data from database
     Then Webpage should contains the search function
     Then Webpage should contains the "Ngày tham gia" filter function
     Then Webpage should contains the "Loại tài khoản" filter function

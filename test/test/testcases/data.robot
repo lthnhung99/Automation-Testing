@@ -339,43 +339,6 @@ DA_26 Verify the "Đóng lại" button
     When Click on the "Xóa" button in the "_@Tiêu đề@_" item line
     When Click on the "Xóa" button in the "_@Tên loại@_" item line
 *** Keywords ***
-# Compare Strings Ignoring Leading and Trailing Whitespaces
-#     [Arguments]    ${actual}    ${expected}
-#     ${actual_stripped}=    Set Variable    ${actual.strip()}
-#     Should Be Equal As Strings    ${actual_stripped}    ${expected}
-
-# Go to "${page}" page
-#     Login to admin
-#     Click "QUẢN LÝ DANH MỤC" menu
-#     ${cnt}=    Get Length    ${page}
-#     IF    ${cnt} > 0 and '${page}' == 'Order'
-#         Click "Order" sub menu to "/order"
-#     ELSE IF    ${cnt} > 0 and '${page}' == 'Quản lý dữ liệu'
-#         Click "Quản lý dữ liệu" sub menu to "/data"
-#     END
-
-# Go to page create account "${name}" with "${url}"
-#     Login to admin
-#     Click "QUẢN LÝ DANH MỤC" menu
-#     Click "${name}" sub menu to "${url}"
-#     Click "Tạo mới" button
-
-# Create a test account with "${type}" type
-#     ${condition}=    Run Keyword And Return Status    Confirm locating exactly in "Quản lý dữ liệu" page
-#     IF    '${condition}' == 'True'
-#         Click "Thêm mới dữ liệu" button
-#     ELSE
-#         Go to page create account "Quản lý dữ liệu" with "/data"
-#     END
-#     Click select "Chuyên mục" with "HSBC"
-#     Enter "word" in "Tiêu đề" with "_RANDOM_"
-#     Enter "word" in textarea "Mô tả" with "_RANDOM_"
-#     Enter "word" in textarea "Nội dung" with "_RANDOM_"
-#     ${text}=    Check Text    _@Họ và tên@_
-#     ${name}=    Set Variable    ${text}
-#     Click "Lưu lại" button
-#     User look message "Success" popup
-#     RETURN    ${name}
 Go to "${page}" page
     Login to admin
     Click "QUẢN LÝ DANH MỤC" menu

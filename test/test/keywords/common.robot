@@ -6,7 +6,7 @@ Library     String
 
 *** Variables ***
 ${BROWSER}              chromium
-${HEADLESS}             ${False}
+${HEADLESS}             ${True}
 ${BROWSER_TIMEOUT}      10 seconds
 ${SHOULD_TIMEOUT}       0.1 seconds
 
@@ -32,20 +32,23 @@ Setup
 Tear Down
     Close Browser    ALL
 
-Wait Until Element Is Visible
-    [Arguments]    ${locator}    ${message}=${EMPTY}    ${timeout}=${BROWSER_TIMEOUT}
-    Wait For Elements State    ${locator}    visible    ${timeout}    ${message}
+Wait Until Element Is Existent
+    [Arguments]                ${locator}                ${message}=${EMPTY}                ${timeout}=${BROWSER_TIMEOUT}
+    Wait For Elements State    ${locator}    attached    ${timeout}                         ${message}
 
+Wait Until Element Is Visible
+    [Arguments]                ${locator}                ${message}=${EMPTY}                ${timeout}=${BROWSER_TIMEOUT}
+    Wait For Elements State    ${locator}    visible     ${timeout}                         ${message}
 Wait Until Page Does Not Contain Element
-    [Arguments]    ${locator}    ${message}=${EMPTY}    ${timeout}=${BROWSER_TIMEOUT}
-    Wait For Elements State    ${locator}    detached    ${timeout}    ${message}
+    [Arguments]                ${locator}                ${message}=${EMPTY}                ${timeout}=${BROWSER_TIMEOUT}
+    Wait For Elements State    ${locator}    detached    ${timeout}                         ${message}
 
 Element Should Be Visible
-    [Arguments]    ${locator}    ${message}=${EMPTY}    ${timeout}=${SHOULD_TIMEOUT}
-    Wait For Elements State    ${locator}    visible    ${timeout}    ${message}
+    [Arguments]                ${locator}                ${message}=${EMPTY}                ${timeout}=${SHOULD_TIMEOUT}
+    Wait For Elements State    ${locator}    visible     ${timeout}                         ${message}
 
 Element Text Should Be
-    [Arguments]    ${locator}    ${expected}    ${message}=${EMPTY}    ${ignore_case}=${EMPTY}
+    [Arguments]                ${locator}                ${expected}                ${message}=${EMPTY}    ${ignore_case}=${EMPTY}
     Get Text    ${locator}    equal    ${expected}    ${message}
 
 Check Text
@@ -57,61 +60,59 @@ Check Text
     END
     RETURN    ${text}
 
-###    -----    Form    -----    ###
-
+###  -----  Form  -----  ###
 Get Random Text
-    [Arguments]    ${type}    ${text}
-    ${symbol}=    Set Variable    _RANDOM_
-    ${new_text}=    Set Variable
-    ${containsS}=    Get Regexp Matches    ${text}    _@(.+)@_    1
-    ${cntS}=    Get length    ${containsS}
-    ${contains}=    Get Regexp Matches    ${text}    ${symbol}
-    ${cnt}=    Get length    ${contains}
-    IF    ${cntS} > 0
-        ${new_text}=    Set Variable    ${STATE["${containsS[0]}"]}
-        ${symbol}=    Set Variable    _@${containsS[0]}@_
-    ELSE IF    ${cnt} > 0 and '${type}' == 'test name'
-        ${random}=    FakerLibrary.Sentence    nb_words=3
-        ${words}=    Split String    ${TEST NAME}    ${SPACE}
-        ${new_text}=    Set Variable    ${words[0]} ${random}
-    ELSE IF    ${cnt} > 0 and '${type}' == 'number'
-        ${new_text}=    FakerLibrary.Random Int
-        ${new_text}=    Convert To String    ${new_text}
-    ELSE IF    ${cnt} > 0 and '${type}' == 'percentage'
-        ${new_text}=    FakerLibrary.Random Int    max=100
-        ${new_text}=    Convert To String    ${new_text}
-    ELSE IF    ${cnt} > 0 and '${type}' == 'paragraph'
-        ${new_text}=    FakerLibrary.Paragraph
-    ELSE IF    ${cnt} > 0 and '${type}' == 'email'
-        ${new_text}=    FakerLibrary.Email
-    ELSE IF    ${cnt} > 0 and '${type}' == 'phone'
-        ${new_text}=    FakerLibrary.Random Int    min=2000000000    max=9999999999
-        ${new_text}=    Convert To String    ${new_text}
-        ${new_text}=    Catenate    SEPARATOR=    0    ${new_text}
-    ELSE IF    ${cnt} > 0 and '${type}' == 'color'
-        ${new_text}=    FakerLibrary.Safe Hex Color
-    ELSE IF    ${cnt} > 0 and "${type}" == 'password'
-        ${new_text}=    FakerLibrary.Password    10    True    True    True    True
-    ELSE IF    ${cnt} > 0 and '${type}' == 'date'
-        ${new_text}=    FakerLibrary.Date    pattern=%d-%m-%Y
-    ELSE IF    ${cnt} > 0 and '${type}' == 'word'
-        ${new_text}=    FakerLibrary.Sentence    nb_words=2
-    ELSE IF    ${cnt} > 0
-        ${new_text}=    FakerLibrary.Sentence
-    END
-    ${cnt}=    Get Length    ${text}
-    IF    ${cnt} > 0
-        ${text}=    Replace String    ${text}    ${symbol}    ${new_text}
-    END
-    RETURN    ${text}
+  [Arguments]               ${type}                           ${text}
+  ${symbol}                 Set Variable                      _RANDOM_
+  ${new_text}               Set Variable
+  ${containsS}=             Get Regexp Matches                ${text}                       _@(.+)@_                   1
+  ${cntS}=                  Get length                        ${containsS}
+  ${contains}=              Get Regexp Matches                ${text}                       ${symbol}
+  ${cnt}=                   Get length                        ${contains}
+  IF  ${cntS} > 0
+    ${new_text}=            Set Variable                      ${STATE["${containsS[0]}"]}
+    ${symbol}=              Set Variable                      _@${containsS[0]}@_
+  ELSE IF  ${cnt} > 0 and '${type}' == 'test name'
+    ${random}=              FakerLibrary.Sentence             nb_words=3
+    ${words}=               Split String                      ${TEST NAME}                  ${SPACE}
+    ${new_text}=            Set Variable                      ${words[0]} ${random}
+  ELSE IF  ${cnt} > 0 and '${type}' == 'number'
+    ${new_text}=            FakerLibrary.Random Int
+    ${new_text}=            Convert To String                 ${new_text}
+  ELSE IF  ${cnt} > 0 and '${type}' == 'percentage'
+    ${new_text}=            FakerLibrary.Random Int           max=100
+    ${new_text}=            Convert To String                 ${new_text}
+  ELSE IF  ${cnt} > 0 and '${type}' == 'paragraph'
+    ${new_text}=            FakerLibrary.Paragraph
+  ELSE IF  ${cnt} > 0 and '${type}' == 'email'
+    ${new_text}=            FakerLibrary.Email
+  ELSE IF  ${cnt} > 0 and '${type}' == 'phone'
+    ${new_text}=            FakerLibrary.Random Int           min=2000000000                max=9999999999
+    ${new_text}=            Convert To String                 ${new_text}
+  ELSE IF  ${cnt} > 0 and '${type}' == 'color'
+    ${new_text}=            FakerLibrary.Safe Hex Color
+  ELSE IF  ${cnt} > 0 and "${type}" == 'password'
+    ${new_text}=            FakerLibrary.Password            10                             True                        True                          True                        True
+  ELSE IF  ${cnt} > 0 and '${type}' == 'date'
+    ${new_text}=            FakerLibrary.Date  	              pattern=%d-%m-%Y
+  ELSE IF  ${cnt} > 0 and '${type}' == 'word'
+    ${new_text}=            FakerLibrary.Sentence             nb_words=1
+  ELSE IF  ${cnt} > 0
+    ${new_text}=            FakerLibrary.Sentence
+  END
+    ${cnt}=                 Get Length                        ${text}
+  IF  ${cnt} > 0
+    ${text}=                Replace String                    ${text}                       ${symbol}                   ${new_text}
+  END
+  [Return]    ${text}
 
 Get Element Form Item By Name
-    [Arguments]    ${name}    ${xpath}=${EMPTY}
-    RETURN    xpath=//*[contains(@class, "ant-form-item-label")]/label[text()="${name}"]/../../*[contains(@class, "ant-form-item")]${xpath}
+  [Arguments]               ${name}                           ${xpath}=${EMPTY}
+  [Return]                  xpath=//*[contains(@class, "ant-form-item-label")]/label[text()="${name}"]/../../*[contains(@class, "ant-form-item")]${xpath}
 
 Required message "${text}" displayed under "${name}" field
-    ${element}=    Get Element Form Item By Name    ${name}    //*[contains(@class, "ant-form-item-explain-error")]
-    Element Text Should Be    ${element}    ${text}
+  ${element}=               Get Element Form Item By Name     ${name}                       //*[contains(@class, "ant-form-item-explain-error")]
+  Element Text Should Be    ${element}                        ${text}
 
 Enter "${type}" in "${name}" with "${text}"
     Wait Until Element Spin
@@ -259,16 +260,19 @@ Click "${text}" sub menu to "${url}"
     Should Contain    ${curent_url}    ${URL_DEFAULT}${url}
 
 User look message "${message}" popup
-    ${contains}=    Get Regexp Matches    ${message}    _@(.+)@_    1
-    ${cnt}=    Get length    ${contains}
-    IF    ${cnt} > 0
-        ${message}=    Replace String    ${message}    _@${contains[0]}@_    ${STATE["${contains[0]}"]}
-    END
-    Element Text Should Be    id=swal2-html-container    ${message}
-    ${element}=    Set Variable    xpath=//*[contains(@class, "swal2-confirm")]
-    ${passed}=    Run Keyword And Return Status
-    ...    Element Should Be Visible    ${element}
-    IF    '${passed}' == 'True'    Click    ${element}
+  ${contains}=              Get Regexp Matches                ${message}                    _@(.+)@_                    1
+  ${cnt}=                   Get length                        ${contains}
+  IF  ${cnt} > 0
+    ${message}=             Replace String                    ${message}                    _@${contains[0]}@_          ${STATE["${contains[0]}"]}
+  END
+  Wait Until Element Is Visible    id=swal2-html-container
+  Element Text Should Be    id=swal2-html-container           ${message}
+  ${element}=               Set Variable                      xpath=//*[contains(@class, "swal2-confirm")]
+  ${passed}                 Run Keyword And Return Status
+                            ...   Element Should Be Visible   ${element}
+  IF    '${passed}' == 'True'
+        Click               ${element}
+  END
 
 Click Confirm To Action
     ${element}=    Set Variable    xpath=//*[contains(@class, "ant-popover")]//*[contains(@class, "ant-btn-primary")]
@@ -366,8 +370,9 @@ Enter date in placeholder "${name}" with "${date}"
 
 
 Data's information in "${field}" should be equal "${value}"
+    Wait Until Element Spin
     ${value}=    Check Text    ${value}
-    ${element}=    Get Element    //th[contains(text(),"${field}")]//following-sibling::th[1]
+     ${element}=    Get Element   //*[contains(@class, 'item-label')]//label[contains(text(),"${value}")]
     Get Text    ${element}    equal    ${value}
 
 Data's information should contain "${name_field}" field
@@ -451,13 +456,10 @@ Click on the "${text}" button in the "${name}" item line with cancel
     Get Property    //button[contains(text(),"${name}")]//ancestor::tr    className    contains    bg-blue-100
 
 "${name}" item line should be highlighted
-    Wait Until Element Spin
-    ${name}=    Check Text    ${name}
-    Get Property
-    ...    //button[contains(text(),"${name}")]//ancestor::span
-    ...    className
-    ...    contains
-    ...    hover:text-blue-500
+  Wait Until Element Spin
+  ${name}=                  Check Text                         ${name}
+  ${element}=         Set Variable                        //*[contains(text(),"${name}") and contains(@class,"item-text")]//ancestor::*[contains(@class,"item text")]
+  Get Property              ${element}            className                      contains          bg-blue-100
 
 Log out account
     Click    //img[contains(@alt,'Avatar')]
@@ -524,7 +526,8 @@ Webpage should contains the "${name}" filter function
     Should Be True    ${count} >= 1
 
 Heading should contains "${text}" inner Text
-    Get Text    //h2    equal    ${text}
+  ${element}=        Set Variable         //*[contains(@class,'text-2xl') and contains(text(),"${text}")]
+  Wait Until Element Is Existent    ${element}
 
 Heading should contain "${text}" inner Text
     ${expected_text}=    Set Variable    ${text}
@@ -593,7 +596,6 @@ Get the last page number
     ELSE IF    ${lastPN} == 0
         ${lastPN}=    Evaluate    (${totalP}//${pageNum})
     END
-    # ${lastPN}=    Evaluate    (${totalP}//${pageNum})+1
     ${cnt}=    Get Length    ${text}
     IF    ${cnt} > 0
         ${lastPageNumber}=    Set Variable    ${lastPN}
@@ -650,73 +652,89 @@ Move to the last page and check
     Should Be Equal    ${count}    ${countS}
 
 Click on "${ordinal}" selection to change the number of account show in list and check
-    ${cnt}=    Get Length    ${ordinal}
-    IF    ${cnt} > 3 and '${ordinal}' == 'first'
-        ${select}=    Set Variable    1
-    ELSE IF    ${cnt} > 3 and '${ordinal}' == 'second'
-        ${select}=    Set Variable    2
-    ELSE IF    ${cnt} > 3 and '${ordinal}' == 'third'
-        ${select}=    Set Variable    3
-    ELSE IF    ${cnt} > 3 and '${ordinal}' == 'fourth'
-        ${select}=    Set Variable    4
-    ELSE IF    ${cnt} > 3 and '${ordinal}' == 'fifth'
-        ${select}=    Set Variable    5
-    ELSE
-        ${select}=    Convert To Integer    ${ordinal}
+  ${cnt}=                       Get Length                      ${ordinal}        
+  IF        ${cnt} > 3 and '${ordinal}' == 'first'
+    ${select}=                  Set Variable                    1
+  ELSE IF   ${cnt} > 3 and '${ordinal}' == 'second'
+    ${select}=                  Set Variable                    2  
+  ELSE IF   ${cnt} > 3 and '${ordinal}' == 'third'
+    ${select}=                  Set Variable                    3  
+  ELSE IF   ${cnt} > 3 and '${ordinal}' == 'fourth'
+    ${select}=                  Set Variable                    4
+  ELSE IF   ${cnt} > 3 and '${ordinal}' == 'fifth'
+    ${select}=                  Set Variable                    5
+  ELSE
+    ${select}=                  Convert To Integer              ${ordinal}
+  END
+  ${amountPage}=                Check the amount of page list
+
+  ${elms}=    Get Elements    //*[contains(@class, 'ant-select-selection-item')]
+  ${text_current}=    Set Variable    ${EMPTY}
+  ${elmm}=    Set Variable    ${EMPTY}
+  FOR    ${element}    IN    @{elms}
+      ${text_current}=    Get Text    ${element}
+      ${elmm}=    Set Variable    ${element}
+
+      Run Keyword If  'page' in '${text_current}'    Exit For Loop   
+  END
+  # ${text_current}=              Get Text                        //*[contains(@class, 'ant-select-selection-item')]
+  ${current}=                   Get Regexp Matches              ${text_current}                          (.+) / page                    1
+  ${current_number}=            Set Variable                    ${current[0]}
+  ${current_number}             Convert To Integer              ${current_number}
+  Click                         ${elmm}
+  ${text_select}=               Get Text                        //nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]      
+  ${select_string}=             Get Regexp Matches              ${text_select}                           (.+) / page                    1
+  ${select_number}=             Set Variable                    ${select_string[0]}
+  ${select_number}=             Convert To Integer              ${select_number}    
+  IF                            ${amountPage} >= 2
+    IF                          ${current_number} < ${select_number}
+      Move to the "next" page
+      ${name}=                  Get the first account name
+      ${ordinal_before}=        Evaluate                        ${current_number} + 2
+      Click                      ${elmm}
+      Wait Until Element Spin
+      Click                     xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
+      Wait Until Element Spin
+      Get Text                  //tbody//tr[${ordinal_before}]//button[contains(@title,"Chi tiết")]        equal                       ${name}
+    ELSE IF                     ${current_number} > ${select_number}
+      ${ordinal_before}=        Evaluate                        ${select_number} + 2
+      ${name}=                  Get Text                        //tbody//tr[${ordinal_before}]//button[contains(@title,"Chi tiết")]
+      Click                      ${elmm}
+      Wait Until Element Spin
+      Click                     xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
+      Wait Until Element Spin
+      Move to the "next" page
+      ${nameS}=                 Get the first account name
+      Should Be Equal           ${nameS}                         ${name}
+      Move to the "previous" page
+    ELSE IF                     ${current_number} = ${select_number}
+      Click                      ${elmm}
+      Wait Until Element Spin
+      Click                     xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]        
+    END    
+  ELSE IF                       ${amountPage} < 2 
+    IF                          ${current_number} <= ${select_number}
+      Click                      ${elmm}
+      Click                     xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
+    ELSE IF                     ${current_number} > ${select_number}
+      ${account_number}=        Count the number account in list
+      IF       ${account_number} > ${select_number}
+        ${ordinal_before}=      Evaluate                         ${select_number} + 2
+        ${name}=                Get Text                         //tbody//tr[${ordinal_before}]//button[contains(@title,"Chi tiết")]
+        Click                    ${elmm}
+        Click                   xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
+        Move to the "next" page
+        ${nameS}=               Get the first account name
+        Should Be Equal         ${nameS}                         ${name}
+        Move to the "previous" page
+      ELSE IF    ${account_number} <= ${select_number}
+        Click                    ${elmm}
+        Click                   xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]   
+      END    
     END
-    ${amountPage}=    Check the amount of page list
-    ${text_current}=    Get Text    //*[contains(@class, 'ant-select-selection-item')]
-    ${current}=    Get Regexp Matches    ${text_current}    (.+) / page    1
-    ${current_number}=    Set Variable    ${current[0]}
-    ${current_number}=    Convert To Integer    ${current_number}
-    Click    xpath=//*[contains(@class, 'ant-select-selection-item')]
-    ${text_select}=    Get Text    //nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
-    ${select_string}=    Get Regexp Matches    ${text_select}    (.+) / page    1
-    ${select_number}=    Set Variable    ${select_string[0]}
-    ${select_number}=    Convert To Integer    ${select_number}
-    IF    ${amountPage} >= 2
-        IF    ${current_number} < ${select_number}
-            Move to the "next" page
-            ${name}=    Get the first account name
-            ${ordinal_before}=    Evaluate    ${current_number} + 2
-            Click    xpath=//*[contains(@class, 'ant-select-selection-item')]
-            Click    xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
-            Get Text    //tbody//tr[${ordinal_before}]//button[contains(@title,"Chi tiết")]    equal    ${name}
-        ELSE IF    ${current_number} > ${select_number}
-            ${ordinal_before}=    Evaluate    ${select_number} + 2
-            ${name}=    Get Text    //tbody//tr[${ordinal_before}]//button[contains(@title,"Chi tiết")]
-            Click    xpath=//*[contains(@class, 'ant-select-selection-item')]
-            Click    xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
-            Move to the "next" page
-            ${nameS}=    Get the first account name
-            Should Be Equal    ${nameS}    ${name}
-            Move to the "previous" page
-        ELSE IF    ${current_number} = ${select_number}
-            Click    xpath=//*[contains(@class, 'ant-select-selection-item')]
-            Click    xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
-        END
-    ELSE IF    ${amountPage} < 2
-        IF    ${current_number} <= ${select_number}
-            Click    xpath=//*[contains(@class, 'ant-select-selection-item')]
-            Click    xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
-        ELSE IF    ${current_number} > ${select_number}
-            ${account_number}=    Count the number account in list
-            IF    ${account_number} > ${select_number}
-                ${ordinal_before}=    Evaluate    ${select_number} + 2
-                ${name}=    Get Text    //tbody//tr[${ordinal_before}]//button[contains(@title,"Chi tiết")]
-                Click    xpath=//*[contains(@class, 'ant-select-selection-item')]
-                Click    xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
-                Move to the "next" page
-                ${nameS}=    Get the first account name
-                Should Be Equal    ${nameS}    ${name}
-                Move to the "previous" page
-            ELSE IF    ${account_number} <= ${select_number}
-                Click    xpath=//*[contains(@class, 'ant-select-selection-item')]
-                Click    xpath=//nz-option-item[${select}]/div[contains(@class,'ant-select-item-option-content')]
-            END
-        END
-    END
-    Wait Until Element Spin
+  END
+  Wait Until Element Spin
+
 
 ### --- Get the account name --- ###
 
@@ -755,4 +773,14 @@ Webpage should contain "${text}" select field
     ${count}=    Get Element Count    ${element}
     Should Be True    ${count} >= 1
 
+# Heading of separated group should contain "${text}" inner Text
+#   ${actual_text}            Get Text                  //div[contains(@class,'h-14')]//span[contains(text(),"${text}")]                         
+#   Should Contain            ${text}                   ${actual_text}
     
+Confirm adding "${url}" page
+  ${current_url}=           Get Url 
+  Should Contain            ${current_url}                     ${URL_DEFAULT}${url}/add 
+
+Heading of separated group should contain "${text}" inner Text
+  ${element}=        Set Variable         //*[contains(@class,'text-xl') and contains(text(),"${text}")]
+  Wait Until Element Is Existent    ${element}
