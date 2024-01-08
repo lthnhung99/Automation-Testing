@@ -50,10 +50,10 @@ CT_04_01 Verify the function navigating to other lists of data page
     Go to "Danh mục" page
     Select on the "Nhóm thủ thuật" item line
     Then Check the amount of page list
-    ${Last_name}=    Get the last account name
+    ${Last_name}=    Get data in the last row
     Create a test data with "Nhóm thủ thuật" type
     When Move to the "next" page
-    ${First_name}=    Get the first account name
+    ${First_name}=    Get data in the first row
     Then Should Be Equal    ${First_name}    ${Last_name}
     When Move to the "previous" page
     When Click on the "Xóa" button in the "_@Tiêu đề@_" table line
@@ -64,10 +64,10 @@ CT_04_02 Verify the function navigating to other lists of data page
     Go to "Danh mục" page
     Select on the "Độ khó" item line
     Then Check the amount of page list
-    ${Last_name}=    Get the last account name
+    ${Last_name}=    Get data in the first row
     Create a test data with "Độ khó" type
     When Move to the "next" page
-    ${First_name}=    Get the first account name
+    ${First_name}=    Get data in the first row
     Then Should Be Equal    ${First_name}    ${Last_name}
     When Move to the "previous" page
     When Click on the "Xóa" button in the "_@Tiêu đề@_" table line
@@ -77,10 +77,10 @@ CT_04_03 Verify the function navigating to other lists of data page
     Go to "Danh mục" page
     Select on the "Bằng cấp chuyên môn" item line
     Then Check the amount of page list
-    ${Last_name}=    Get the last account name
+    ${Last_name}=    Get data in the first row
     Create a test data with "Bằng cấp chuyên môn" type
     When Move to the "next" page
-    ${First_name}=    Get the first account name
+    ${First_name}=    Get data in the first row
     Then Should Be Equal    ${First_name}    ${Last_name}
     When Move to the "previous" page
     When Click on the "Xóa" button in the "_@Tiêu đề@_" table line
@@ -90,10 +90,10 @@ CT_04_04 Verify the function navigating to other lists of data page
     Go to "Danh mục" page
     Select on the "Số răng" item line
     Then Check the amount of page list
-    ${Last_name}=    Get the last account name
+    ${Last_name}=    Get data in the first row
     Create a test data with "Số răng" type
     When Move to the "next" page
-    ${First_name}=    Get the first account name
+    ${First_name}=    Get data in the first row
     Then Should Be Equal    ${First_name}    ${Last_name}
     When Move to the "previous" page
     When Click on the "Xóa" button in the "_@Tiêu đề@_" table line
@@ -578,8 +578,10 @@ CT_44 Verify the changing "Mô tả" field
     When Enter "paragraph" in textarea "Mô tả" with "_RANDOM_"
     When Click "Lưu lại" button
     Then User look message "Success" popup
-    When Click on the "Xóa" button in the "_@Tiêu đề@_" table line
+    When Click on the "Sửa" button in the "_@Tiêu đề@_" table line
     Then Data's information in "Mô tả" should be equal "_@Mô tả@_"
+    When Click "Đóng lại" button
+    When Click on the "Xóa" button in the "_@Tiêu đề@_" table line
 
 ## Verify the go back function of buttons in change information's page
 CT_45 Check the "Đóng lại" button in edit infomation page

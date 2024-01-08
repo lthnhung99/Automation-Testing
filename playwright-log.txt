@@ -1,63 +1,231 @@
-{"level":30,"time":"2024-01-04T06:57:12.651Z","pid":20532,"hostname":"HongNhung","msg":"Listening on 50947"}
-{"level":30,"time":"2024-01-04T06:57:12.822Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-01-04T06:57:12.823Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-01-04T06:57:12.827Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-01-04T06:57:12.827Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-01-04T06:57:12.836Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2024-01-04T06:57:13.217Z","pid":20532,"hostname":"HongNhung","msg":"End of node method newBrowser"}
-{"level":30,"time":"2024-01-04T06:57:13.224Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method newPage"}
-{"level":30,"time":"2024-01-04T06:57:13.225Z","pid":20532,"hostname":"HongNhung","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2024-01-04T06:57:13.235Z","pid":20532,"hostname":"HongNhung","msg":"Changed active context"}
-{"level":30,"time":"2024-01-04T06:57:13.880Z","pid":20532,"hostname":"HongNhung","msg":"Video path: undefined"}
-{"level":30,"time":"2024-01-04T06:57:13.880Z","pid":20532,"hostname":"HongNhung","msg":"Changed active page"}
-{"level":30,"time":"2024-01-04T06:57:16.541Z","pid":20532,"hostname":"HongNhung","msg":"End of node method newPage"}
-{"level":30,"time":"2024-01-04T06:57:16.548Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:16.549Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: //header//span[contains(text(),\"Danh mục\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:16.596Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:16.704Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:16.704Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:16.709Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:16.729Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:16.729Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Email\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:16.790Z","pid":20532,"hostname":"HongNhung","msg":"End of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:16.795Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:16.796Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Email\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:16.829Z","pid":20532,"hostname":"HongNhung","msg":"End of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:16.942Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:16.942Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:16.946Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:16.973Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:16.973Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mật khẩu\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:16.996Z","pid":20532,"hostname":"HongNhung","msg":"End of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:17.002Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:17.002Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mật khẩu\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:17.053Z","pid":20532,"hostname":"HongNhung","msg":"End of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:17.063Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:17.064Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Đăng nhập\"] in page."}
-{"level":30,"time":"2024-01-04T06:57:17.143Z","pid":20532,"hostname":"HongNhung","msg":"End of node method click"}
-{"level":30,"time":"2024-01-04T06:57:17.147Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:17.147Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:17.150Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:17.158Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.164Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.165Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.171Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.174Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.176Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.178Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.180Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.183Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.188Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:17.197Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2024-01-04T06:57:17.197Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
-{"level":30,"time":"2024-01-04T06:57:17.338Z","pid":20532,"hostname":"HongNhung","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2024-01-04T06:57:17.342Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getText"}
-{"level":30,"time":"2024-01-04T06:57:17.342Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
-{"level":30,"time":"2024-01-04T06:57:17.365Z","pid":20532,"hostname":"HongNhung","msg":"Retrieved text for element id=swal2-html-container containing Success"}
-{"level":30,"time":"2024-01-04T06:57:17.365Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getText"}
-{"level":30,"time":"2024-01-04T06:57:17.373Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2024-01-04T06:57:17.374Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"swal2-confirm\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:17.477Z","pid":20532,"hostname":"HongNhung","msg":"Error of node method  waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:44.505Z","pid":20992,"hostname":"HongNhung","msg":"Listening on 61334"}
+{"level":30,"time":"2024-01-05T12:49:44.577Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:49:44.577Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:49:44.582Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:49:44.582Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:49:44.593Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-01-05T12:49:45.139Z","pid":20992,"hostname":"HongNhung","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-01-05T12:49:45.149Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-01-05T12:49:45.149Z","pid":20992,"hostname":"HongNhung","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-01-05T12:49:45.167Z","pid":20992,"hostname":"HongNhung","msg":"Changed active context"}
+{"level":30,"time":"2024-01-05T12:49:45.910Z","pid":20992,"hostname":"HongNhung","msg":"Video path: undefined"}
+{"level":30,"time":"2024-01-05T12:49:45.910Z","pid":20992,"hostname":"HongNhung","msg":"Changed active page"}
+{"level":30,"time":"2024-01-05T12:49:49.520Z","pid":20992,"hostname":"HongNhung","msg":"End of node method newPage"}
+{"level":30,"time":"2024-01-05T12:49:49.537Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:49.537Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: //header//span[contains(text(),\"Danh mục\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:49.592Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:49.706Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:49.707Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:49.714Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:49.796Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:49.797Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Email\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:49.846Z","pid":20992,"hostname":"HongNhung","msg":"End of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:49.855Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:49.855Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Email\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:49.893Z","pid":20992,"hostname":"HongNhung","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:50.006Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:50.006Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:50.010Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:50.042Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:50.042Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mật khẩu\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:50.079Z","pid":20992,"hostname":"HongNhung","msg":"End of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:50.087Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:50.087Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mật khẩu\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:50.117Z","pid":20992,"hostname":"HongNhung","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:50.131Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:50.131Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Đăng nhập\"] in page."}
+{"level":30,"time":"2024-01-05T12:49:50.263Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:50.272Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:50.272Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:50.275Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:50.283Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.291Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.294Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.298Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.302Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.306Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.308Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.310Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.313Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.319Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:50.328Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:50.329Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
+{"level":30,"time":"2024-01-05T12:49:50.440Z","pid":20992,"hostname":"HongNhung","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:50.449Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:50.450Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
+{"level":30,"time":"2024-01-05T12:49:50.494Z","pid":20992,"hostname":"HongNhung","msg":"Retrieved text for element id=swal2-html-container containing Success"}
+{"level":30,"time":"2024-01-05T12:49:50.494Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:50.508Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:50.508Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"swal2-confirm\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:50.620Z","pid":20992,"hostname":"HongNhung","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 100ms exceeded.
+=========================== logs ===========================
+waiting for locator('xpath=//*[contains(@class, "swal2-confirm")]') to be visible
+  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
+  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
+============================================================
+    at waitForElementState (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8508:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10006:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-01-05T12:49:50.685Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-01-05T12:49:50.686Z","pid":20992,"hostname":"HongNhung","Take screenshot with options: ":{"path":"D:\\Automation Testing\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-01-05T12:49:50.875Z","pid":20992,"hostname":"HongNhung","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-01-05T12:49:50.891Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:50.891Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//li[contains(@class, \"menu\") and descendant::span[contains(text(), \"QUẢN LÝ DANH MỤC\")]] in page."}
+{"level":30,"time":"2024-01-05T12:49:52.497Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:52.604Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:52.605Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:52.618Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:52.626Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:52.626Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class, \"sub-menu\") and descendant::span[contains(text(), \"Danh mục\")]] in page."}
+{"level":30,"time":"2024-01-05T12:49:52.835Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:52.957Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:52.957Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:53.000Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:53.010Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:53.010Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"item-text\") and contains(text(), \"Nhóm thủ thuật\")]/ancestor::*[contains(@class, \"item\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:53.390Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:53.402Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:53.402Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Thêm mới\"] in page."}
+{"level":30,"time":"2024-01-05T12:49:53.650Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:53.656Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:53.656Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:53.661Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:53.670Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.678Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.683Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.704Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.707Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.719Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.722Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.726Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.730Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.736Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:53.853Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:53.853Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:53.858Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:53.913Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:53.914Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Tiêu đề\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:53.946Z","pid":20992,"hostname":"HongNhung","msg":"End of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:53.952Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:53.952Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Tiêu đề\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:53.982Z","pid":20992,"hostname":"HongNhung","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:54.103Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:54.104Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.107Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:54.136Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:54.137Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Thứ tự\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.165Z","pid":20992,"hostname":"HongNhung","msg":"End of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:54.171Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:54.171Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Thứ tự\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.194Z","pid":20992,"hostname":"HongNhung","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:54.304Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:54.304Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.307Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:54.334Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:54.334Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mã\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.360Z","pid":20992,"hostname":"HongNhung","msg":"End of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:54.367Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:54.367Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mã\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.392Z","pid":20992,"hostname":"HongNhung","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:54.468Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:54.468Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mô tả\"]/../../*[contains(@class, \"ant-form-item\")]//textarea in page."}
+{"level":30,"time":"2024-01-05T12:49:54.495Z","pid":20992,"hostname":"HongNhung","msg":"End of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:54.503Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:54.503Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mô tả\"]/../../*[contains(@class, \"ant-form-item\")]//textarea in page."}
+{"level":30,"time":"2024-01-05T12:49:54.525Z","pid":20992,"hostname":"HongNhung","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:54.539Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:54.539Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Lưu lại\"] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.655Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:54.663Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:54.663Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:54.672Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:54.680Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.684Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.688Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.690Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.693Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.696Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.699Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.703Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.705Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.708Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:54.719Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:54.719Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
+{"level":30,"time":"2024-01-05T12:49:54.960Z","pid":20992,"hostname":"HongNhung","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:54.970Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:54.970Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
+{"level":30,"time":"2024-01-05T12:49:55.009Z","pid":20992,"hostname":"HongNhung","msg":"Retrieved text for element id=swal2-html-container containing Success"}
+{"level":30,"time":"2024-01-05T12:49:55.010Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:55.019Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:55.019Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"swal2-confirm\")] in page."}
+================= Original suppressed error =================
+{"level":30,"time":"2024-01-05T12:49:55.134Z","pid":20992,"hostname":"HongNhung","msg":"Error of node method  waitForElementState"}
+locator.waitFor: Timeout 100ms exceeded.
+=========================== logs ===========================
+waiting for locator('xpath=//*[contains(@class, "swal2-confirm")]') to be visible
+  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
+  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
+  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
+============================================================
+    at waitForElementState (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8508:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10006:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-01-05T12:49:55.174Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-01-05T12:49:55.174Z","pid":20992,"hostname":"HongNhung","Take screenshot with options: ":{"path":"D:\\Automation Testing\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-01-05T12:49:55.470Z","pid":20992,"hostname":"HongNhung","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-01-05T12:49:55.589Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:55.589Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:55.593Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:55.603Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:55.603Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"item-text\") and contains(text(), \"Nhóm thủ thuật\")]/ancestor::*[contains(@class, \"item\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:56.692Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:56.800Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:56.800Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:56.806Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:56.833Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:56.833Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-table-row\")]//*[contains(text(), \"CT_44 Inventore.\")]/ancestor::tr//button[@title = \"Sửa\"] in page."}
+{"level":30,"time":"2024-01-05T12:49:56.964Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:56.971Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:56.971Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:56.975Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:57.008Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:57.008Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mô tả\"]/../../*[contains(@class, \"ant-form-item\")]//textarea in page."}
+{"level":30,"time":"2024-01-05T12:49:57.047Z","pid":20992,"hostname":"HongNhung","msg":"End of node method clearText"}
+{"level":30,"time":"2024-01-05T12:49:57.054Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:57.054Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mô tả\"]/../../*[contains(@class, \"ant-form-item\")]//textarea in page."}
+{"level":30,"time":"2024-01-05T12:49:57.137Z","pid":20992,"hostname":"HongNhung","msg":"End of node method fillText"}
+{"level":30,"time":"2024-01-05T12:49:57.148Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:57.148Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Lưu lại\"] in page."}
+{"level":30,"time":"2024-01-05T12:49:57.526Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:57.538Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:57.538Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:57.544Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:57.556Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.559Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.563Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.567Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.570Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.651Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.655Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.740Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.743Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.811Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:49:57.826Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:57.826Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
+{"level":30,"time":"2024-01-05T12:49:57.848Z","pid":20992,"hostname":"HongNhung","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:57.855Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:57.855Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
+{"level":30,"time":"2024-01-05T12:49:57.885Z","pid":20992,"hostname":"HongNhung","msg":"Retrieved text for element id=swal2-html-container containing Success"}
+{"level":30,"time":"2024-01-05T12:49:57.885Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:57.892Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-01-05T12:49:57.892Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"swal2-confirm\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:57.999Z","pid":20992,"hostname":"HongNhung","msg":"Error of node method  waitForElementState"}
 ================= Original suppressed error =================
 locator.waitFor: Timeout 100ms exceeded.
 =========================== logs ===========================
@@ -71,145 +239,59 @@ waiting for locator('xpath=//*[contains(@class, "swal2-confirm")]') to be visibl
   name: 'TimeoutError'
 }
 =============================================================
-{"level":30,"time":"2024-01-04T06:57:17.512Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2024-01-04T06:57:17.512Z","pid":20532,"hostname":"HongNhung","Take screenshot with options: ":{"path":"D:\\Automation Testing\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2024-01-04T06:57:17.691Z","pid":20532,"hostname":"HongNhung","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2024-01-04T06:57:17.699Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:17.699Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//li[contains(@class, \"menu\") and descendant::span[contains(text(), \"QUẢN LÝ DANH MỤC\")]] in page."}
-{"level":30,"time":"2024-01-04T06:57:19.250Z","pid":20532,"hostname":"HongNhung","msg":"End of node method click"}
-{"level":30,"time":"2024-01-04T06:57:19.355Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:19.355Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:19.358Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:19.362Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:19.362Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(@class, \"sub-menu\") and descendant::span[contains(text(), \"Danh mục\")]] in page."}
-{"level":30,"time":"2024-01-04T06:57:19.493Z","pid":20532,"hostname":"HongNhung","msg":"End of node method click"}
-{"level":30,"time":"2024-01-04T06:57:19.607Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:19.607Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:19.642Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:19.649Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:19.649Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"item-text\") and contains(text(), \"Nhóm thủ thuật\")]/ancestor::*[contains(@class, \"item\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.025Z","pid":20532,"hostname":"HongNhung","msg":"End of node method click"}
-{"level":30,"time":"2024-01-04T06:57:20.030Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:20.031Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Thêm mới\"] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.176Z","pid":20532,"hostname":"HongNhung","msg":"End of node method click"}
-{"level":30,"time":"2024-01-04T06:57:20.181Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.181Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.185Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.189Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.192Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.194Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.196Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.198Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.201Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.203Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.216Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.219Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.229Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.341Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.341Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.346Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.382Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.382Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Tiêu đề\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.399Z","pid":20532,"hostname":"HongNhung","msg":"End of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.403Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.404Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Tiêu đề\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.422Z","pid":20532,"hostname":"HongNhung","msg":"End of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.536Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.536Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.541Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.564Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.565Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Thứ tự\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.588Z","pid":20532,"hostname":"HongNhung","msg":"End of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.592Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.592Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Thứ tự\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.609Z","pid":20532,"hostname":"HongNhung","msg":"End of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.715Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.716Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.719Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.742Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.743Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mã\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.777Z","pid":20532,"hostname":"HongNhung","msg":"End of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.781Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.782Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mã\"]/../../*[contains(@class, \"ant-form-item\")]//input[contains(@class, \"ant-input\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.802Z","pid":20532,"hostname":"HongNhung","msg":"End of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.834Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.834Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mô tả\"]/../../*[contains(@class, \"ant-form-item\")]//textarea in page."}
-{"level":30,"time":"2024-01-04T06:57:20.858Z","pid":20532,"hostname":"HongNhung","msg":"End of node method clearText"}
-{"level":30,"time":"2024-01-04T06:57:20.862Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.862Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-form-item-label\")]/label[text()=\"Mô tả\"]/../../*[contains(@class, \"ant-form-item\")]//textarea in page."}
-{"level":30,"time":"2024-01-04T06:57:20.882Z","pid":20532,"hostname":"HongNhung","msg":"End of node method fillText"}
-{"level":30,"time":"2024-01-04T06:57:20.892Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:20.892Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Lưu lại\"] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.963Z","pid":20532,"hostname":"HongNhung","msg":"End of node method click"}
-{"level":30,"time":"2024-01-04T06:57:20.967Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.967Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:20.972Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:20.976Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.979Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.981Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.983Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.987Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.990Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.992Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.994Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.996Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:20.998Z","pid":20532,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
-{"level":30,"time":"2024-01-04T06:57:21.006Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2024-01-04T06:57:21.006Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
-{"level":30,"time":"2024-01-04T06:57:21.127Z","pid":20532,"hostname":"HongNhung","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2024-01-04T06:57:21.134Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getText"}
-{"level":30,"time":"2024-01-04T06:57:21.134Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with id=swal2-html-container in page."}
-{"level":30,"time":"2024-01-04T06:57:21.209Z","pid":20532,"hostname":"HongNhung","msg":"Retrieved text for element id=swal2-html-container containing Success"}
-{"level":30,"time":"2024-01-04T06:57:21.209Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getText"}
-{"level":30,"time":"2024-01-04T06:57:21.214Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2024-01-04T06:57:21.214Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"swal2-confirm\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:21.319Z","pid":20532,"hostname":"HongNhung","msg":"Error of node method  waitForElementState"}
-================= Original suppressed error =================
-locator.waitFor: Timeout 100ms exceeded.
-=========================== logs ===========================
-waiting for locator('xpath=//*[contains(@class, "swal2-confirm")]') to be visible
-  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
-  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
-  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
-  locator resolved to hidden <button type="button" aria-label="" class="swal2-confirm…>OK</button>
-============================================================
-    at waitForElementState (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8508:19)
-    at async PlaywrightServer.waitForElementsState (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10006:28) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2024-01-04T06:57:21.342Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2024-01-04T06:57:21.342Z","pid":20532,"hostname":"HongNhung","Take screenshot with options: ":{"path":"D:\\Automation Testing\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2024-01-04T06:57:21.499Z","pid":20532,"hostname":"HongNhung","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2024-01-04T06:57:21.606Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:21.606Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:21.609Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:21.615Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:21.615Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"item-text\") and contains(text(), \"Nhóm thủ thuật\")]/ancestor::*[contains(@class, \"item\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:23.196Z","pid":20532,"hostname":"HongNhung","msg":"End of node method click"}
-{"level":30,"time":"2024-01-04T06:57:23.300Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:23.300Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
-{"level":30,"time":"2024-01-04T06:57:23.307Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getElementCount"}
-{"level":30,"time":"2024-01-04T06:57:23.315Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method click"}
-{"level":30,"time":"2024-01-04T06:57:23.315Z","pid":20532,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-table-row\")]//*[contains(text(), \"Nhóm thủ thuật\")]/ancestor::tr//button[@title = \"Xóa\"] in page."}
-{"level":30,"time":"2024-01-04T06:57:33.330Z","pid":20532,"hostname":"HongNhung","msg":"Error of node method  click"}
-================= Original suppressed error =================
-locator.click: Timeout 10000ms exceeded.
-=========================== logs ===========================
-waiting for locator('xpath=//*[contains(@class, "ant-table-row")]//*[contains(text(), "Nhóm thủ thuật")]/ancestor::tr//button[@title = "Xóa"]')
-============================================================
-    at internalClick (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9078:19)
-    at async click (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9059:18)
-    at async PlaywrightServer.click (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10006:28) {
-  name: 'TimeoutError'
-}
-=============================================================
-{"level":30,"time":"2024-01-04T06:57:33.364Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2024-01-04T06:57:33.365Z","pid":20532,"hostname":"HongNhung","Take screenshot with options: ":{"path":"D:\\Automation Testing\\browser\\screenshot\\fail-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2024-01-04T06:57:33.474Z","pid":20532,"hostname":"HongNhung","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2024-01-04T06:57:33.487Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2024-01-04T06:57:33.494Z","pid":20532,"hostname":"HongNhung","msg":"Removed page=0f11132f-1518-4eaf-a8c6-b6177b41aef7 from context=acb9a785-408e-4583-ac71-ab3f18e53465 page stack"}
-{"level":30,"time":"2024-01-04T06:57:33.535Z","pid":20532,"hostname":"HongNhung","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2024-01-05T12:49:58.042Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-01-05T12:49:58.042Z","pid":20992,"hostname":"HongNhung","Take screenshot with options: ":{"path":"D:\\Automation Testing\\browser\\screenshot\\fail-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-01-05T12:49:58.357Z","pid":20992,"hostname":"HongNhung","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-01-05T12:49:58.473Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:58.473Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:58.477Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:58.503Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:58.503Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-table-row\")]//*[contains(text(), \"CT_44 Inventore.\")]/ancestor::tr//button[@title = \"Sửa\"] in page."}
+{"level":30,"time":"2024-01-05T12:49:59.667Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:49:59.674Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:59.674Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:59.686Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:59.792Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:59.793Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:59.798Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:49:59.809Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElement"}
+{"level":30,"time":"2024-01-05T12:49:59.809Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with //label[contains(text(),\"Mô tả\")]/../../..//*[contains(@class,\"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:59.817Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElement"}
+{"level":30,"time":"2024-01-05T12:49:59.824Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:59.824Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with //label[contains(text(),\"Mô tả\")]/../../..//*[contains(@class,\"ant-input\")] in page."}
+{"level":30,"time":"2024-01-05T12:49:59.847Z","pid":20992,"hostname":"HongNhung","msg":"Retrieved text for element //label[contains(text(),\"Mô tả\")]/../../..//*[contains(@class,\"ant-input\")] containing Accusantium debitis ex necessitatibus voluptatum assumenda. Et quisquam culpa saepe beatae. Inventore itaque magnam."}
+{"level":30,"time":"2024-01-05T12:49:59.847Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getText"}
+{"level":30,"time":"2024-01-05T12:49:59.855Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:49:59.855Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//button[@title = \"Đóng lại\"] in page."}
+{"level":30,"time":"2024-01-05T12:50:00.303Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:50:00.311Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:50:00.311Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:50:00.353Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:50:00.358Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.379Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.383Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.390Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.395Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.425Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.430Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.442Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.447Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.453Z","pid":20992,"hostname":"HongNhung","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2024-01-05T12:50:00.559Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:50:00.559Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-spin-spinning\")] in page."}
+{"level":30,"time":"2024-01-05T12:50:00.564Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:50:00.589Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:50:00.590Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-table-row\")]//*[contains(text(), \"CT_44 Inventore.\")]/ancestor::tr//button[@title = \"Xóa\"] in page."}
+{"level":30,"time":"2024-01-05T12:50:00.930Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:50:00.936Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:50:00.937Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is disabled, return Locator: xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:50:00.942Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getElementCount"}
+{"level":30,"time":"2024-01-05T12:50:00.949Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method click"}
+{"level":30,"time":"2024-01-05T12:50:00.949Z","pid":20992,"hostname":"HongNhung","msg":"Strict mode is enabled, find Locator with xpath=//*[contains(@class, \"ant-popover\")]//*[contains(@class, \"ant-btn-primary\")] in page."}
+{"level":30,"time":"2024-01-05T12:50:01.204Z","pid":20992,"hostname":"HongNhung","msg":"End of node method click"}
+{"level":30,"time":"2024-01-05T12:50:01.313Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-01-05T12:50:01.322Z","pid":20992,"hostname":"HongNhung","msg":"Removed page=f64e54f9-decc-410a-b613-7d7be2a7d486 from context=ceeb1f2a-8d12-41dd-aa71-dc1f3781b4f0 page stack"}
+{"level":30,"time":"2024-01-05T12:50:02.012Z","pid":20992,"hostname":"HongNhung","msg":"End of node method closeAllBrowsers"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9470:15)
@@ -218,8 +300,8 @@ Error: Browser has been closed.
     at handleUnary (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 =============================================================
-{"level":30,"time":"2024-01-04T06:57:33.572Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-01-04T06:57:33.572Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:50:02.052Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:50:02.052Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9470:15)
@@ -228,7 +310,7 @@ Error: Browser has been closed.
     at handleUnary (C:\Users\DELL\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 =============================================================
-{"level":30,"time":"2024-01-04T06:57:33.609Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-01-04T06:57:33.609Z","pid":20532,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-01-04T06:57:35.732Z","pid":20532,"hostname":"HongNhung","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2024-01-04T06:57:35.732Z","pid":20532,"hostname":"HongNhung","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2024-01-05T12:50:02.092Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:50:02.092Z","pid":20992,"hostname":"HongNhung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-05T12:50:04.220Z","pid":20992,"hostname":"HongNhung","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-01-05T12:50:04.220Z","pid":20992,"hostname":"HongNhung","msg":"End of node method closeAllBrowsers"}
